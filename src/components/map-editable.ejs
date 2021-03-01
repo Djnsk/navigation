@@ -1,0 +1,20 @@
+<body class="map map--editable" oncontextmenu="return false;">
+	<div class="aside">
+		<div class="controls">
+			<button type="button" class="btn btn-success map--editable__save">Сохранить</button>
+			<button type="button" class="btn btn-warning map--editable__load">Загрузить</button>
+			<button type="button" class="btn btn-secondary map--editable__floor" data-floor="1">1</button>
+			<button type="button" class="btn btn-secondary map--editable__floor" data-floor="2">2</button>
+			<button type="button" class="btn btn-secondary map--editable__floor" data-floor="3">3</button>
+			<button type="button" class="btn btn-secondary map--editable__floor" data-floor="4">4</button>
+		</div>
+		<div class="map--editable__point-list"></div>
+	</div>
+	<main role="main">
+		<div class="map__wrapper">
+			<canvas width="2000px" height="2000px" class="map__ui"></canvas>
+		</div>
+	</main>
+</body>
+<script type="module" src="/src/scripts/editable.js"></script>
+

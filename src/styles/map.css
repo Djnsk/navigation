@@ -1,0 +1,63 @@
+.map {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.map__wrapper {
+	min-height: 200px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.map__ui {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2000px;
+	height: 2000px;
+}
+
+.map--editable__point-list {
+	overflow-y: scroll;
+	max-height: calc(100vh - 80px);
+	padding: 20px;
+}
+
+.map--editable__point {
+	display: flex;
+	justify-content: space-evenly;
+	color: #ffffff;
+}
+
+.map--editable__point-text {
+	flex-basis: 50%;
+}
+
+.map--editable__point input {
+	flex-basis: 25%;
+}
+
+.map--editable__col {
+	display: flex;
+	flex-direction: column;
+}
+
+.map--editable .controls {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.map--editable__save, .map--editable__load {
+	border-radius: 0;
+	flex-basis: 50%;
+}
+
+.map--editable__floor {
+	border-radius: 0;
+	flex-basis: 25%;
+}

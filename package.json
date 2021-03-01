@@ -1,0 +1,19 @@
+{
+  "name": "navigation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Malahov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/desent79/navigation/issues"
+  },
+  "homepage": "https://gitlab.com/desent79/navigation#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
