@@ -42,7 +42,8 @@ export class MapWithPaths extends MapScroll {
 
 				reader.readAsText(file);
 			});
-		});
+		}); 
+		map.redrawFiltered([]);
 	}
 
 	initFloorButtons() {
